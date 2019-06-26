@@ -10,7 +10,7 @@ spring:
     show-sql: true
 server:
   servlet:
-    context-path: 
+    context-path: authserver
 security:
   oauth2:
     client:
