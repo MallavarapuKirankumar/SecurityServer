@@ -8,6 +8,9 @@ spring:
       ddl-auto: create-drop
     generate-ddl: true
     show-sql: true
+server:
+  servlet:
+    context-path:/authserver
 security:
   oauth2:
     client:
