@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/kiran?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    generate-ddl: true
+    show-sql: true
+server:
+  servlet:
+    context-path: 
+security:
+  oauth2:
+    client:
+      client-id: springtest
+      client-secret: test
+      authorized-grant-types:
+      - password
+      scope:
+      - read,write
